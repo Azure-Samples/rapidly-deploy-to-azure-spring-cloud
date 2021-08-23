@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker run -p 5432:5432 -e POSTGRES_USER=bk -e PGUSER=bk -e POSTGRES_PASSWORD=bk postgres:latest
+docker run -p 5432:5432 -e POSTGRES_USER=asc -e PGUSER=asc -e POSTGRES_PASSWORD=asc postgres:latest
