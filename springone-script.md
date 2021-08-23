@@ -1,6 +1,6 @@
 # SpringOne Script
 
-* create an enterprise cluster  
+* create an enterprise cluster  (~7m)
  * includes Spring Support! 
 * create postgresql cluster 
 
