@@ -15,4 +15,8 @@
     <PackageReference Include="Steeltoe.Discovery.Eureka" Version="$(SteeltoeVersion)" />
   </ItemGroup>
 
+  <Target Name="Publish-Zip" AfterTargets="Publish">
+	<ZipDirectory SourceDirectory="$(PublishDir)" DestinationFile="$(MSBuildProjectDirectory)/deploy.zip" Overwrite="true" />
+  </Target>
+
 </Project>
